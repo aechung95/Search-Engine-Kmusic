@@ -1,0 +1,145 @@
+body {
+    font-family: 'Khula', sans-serif;
+    text-align: center;
+}
+
+h1 {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+p {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    padding: 10px;
+}
+
+.nav {
+    text-align: left;
+}
+
+.nav a {
+    text-align: left;
+    font-size: 14px; 
+    color: gray;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.navGenre {
+    margin: 20px;
+}
+
+.navGenre a:link {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(145, 206, 235);
+    padding: 14px;
+} 
+
+.navGenre a:visited {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(81, 125, 151);
+    padding: 14px;
+} 
+
+.navGenre a:hover {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(116, 110, 201);
+    padding: 14px;
+} 
+
+.navGenre a:active {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(77, 116, 84);
+    padding: 14px;
+} 
+
+.searchBar input[type=text] {
+    font-size: 17px; 
+    width: 400px; 
+    height: 30px; 
+    padding: 6px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    overflow: hidden;
+    -webkit-box-shadow: 10px 10px 34px -10px rgba(168,168,168,1);
+    -moz-box-shadow: 10px 10px 34px -10px rgba(168,168,168,1);
+    box-shadow: 10px 10px 34px -10px rgba(168,168,168,1);
+}
+
+.searchButton {
+    background-color: #746ec9;
+    border: none;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    margin: 35px 10px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+
+.searchButton:hover {
+    background-color: rgb(151, 146, 228);
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    padding: 10px;
+    padding-top: 60px;
+}
+
+.header {
+    font-size: 70px;
+    margin-top: 80px;
+    height: 90px;
+}
+
+.dim-img {
+    width: 70%;
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.banner-img {
+    width: 80%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    transition: .5s ease;
+    opacity: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  background-color: rgb(201, 201, 201);
+}
+
+.dim-img:hover .overlay {
+    opacity: 1;
+}
+
+.logo-img {
+    width: 60%;
+    margin-top: 80px;
+    margin-bottom: 15px;
+    padding: 30px;
+    align-content: center;
+}
